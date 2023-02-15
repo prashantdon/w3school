@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 30%;
+    padding: 2em 3.5em;
+    margin: 0 auto;
+    border: 1px solid rgb(226, 215, 215);
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-top: 4.2em;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 1.7rem;
+    line-height: 3;
+    color: #282A35;
+}
+.email-name{
+    font-size: 16px;
+    color: #212529;
+    font-weight: bold;
+    padding: .5em 0;
+}
+.email-ac{
+    font-size: 14px;
+    color: #212529;
+    padding: .5em 0;
+}
+.email-ac>button{
+    color: #04AA6D;
+    border: none;
+    background: none;
+}
